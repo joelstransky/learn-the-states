@@ -4,8 +4,8 @@
 		"allowSyntheticDefaultImports": true,
 		"downlevelIteration": true,
 		"jsx": "react",
-		"jsxFactory": "Roact.createElement",
-		"jsxFragmentFactory": "Roact.createFragment",
+		"jsxFactory": "React.createElement",
+		"jsxFragmentFactory": "React.Fragment",
 		"module": "commonjs",
 		"moduleResolution": "Node",
 		"noLib": true,
@@ -15,13 +15,19 @@
 		"moduleDetection": "force",
 		"strict": true,
 		"target": "ESNext",
-		"typeRoots": ["node_modules/@rbxts"],
+		"typeRoots": ["node_modules/@rbxts", "node_modules/@flamework", "types"],
 
 		// configurable
 		"rootDir": "src",
 		"outDir": "out",
 		"baseUrl": "src",
 		"incremental": true,
-		"tsBuildInfoFile": "out/tsconfig.tsbuildinfo"
+		"tsBuildInfoFile": "out/tsconfig.tsbuildinfo",
+		"plugins": [
+			{
+				"transform": "rbxts-transformer-flamework",
+				"obfuscation": false
+			}
+		]
 	}
 }

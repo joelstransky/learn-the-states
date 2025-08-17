@@ -1,5 +1,6 @@
 {
-	"name": "Learn The States",
+	"name": "Learn-The-States",
+	"servePlaceIds": [109850687539966],
 	"globIgnorePaths": [
 		"**/package.json",
 		"**/tsconfig.json"
@@ -20,6 +21,9 @@
 					"$className": "Folder",
 					"@rbxts": {
 						"$path": "node_modules/@rbxts"
+					},
+					"@flamework": {
+						"$path": "node_modules/@flamework"
 					}
 				}
 			},
