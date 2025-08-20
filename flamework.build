@@ -1,6 +1,12 @@
 {
 	"version": 1,
 	"flameworkVersion": "1.3.1",
-	"identifiers": {},
+	"identifiers": {
+		"Learn-The-States:out/client/controllers/StateController.client@StateController": "client/controllers/StateController.client@StateController",
+		"Learn-The-States:out/server/services/StateService@StateService": "server/services/StateService@StateService",
+		"Learn-The-States:out/client/controllers/StateController@StateController": "client/controllers/StateController@StateController",
+		"Learn-The-States:out/client/components/USAMap.client@USAMapComponent": "client/components/USAMap.client@USAMapComponent",
+		"Learn-The-States:out/client/components/USAMap@USAMapComponent": "client/components/USAMap@USAMapComponent"
+	},
 	"metadata": {}
 }
